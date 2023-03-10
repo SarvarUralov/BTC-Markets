@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- icon img -->
+    <link rel="icon" href="./image/ava-img.jpg">
+    <!-- style link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <!-- media link -->
+    <link rel="stylesheet" href="./MyMedia.css">
+    <title>BTC-Market</title>
+</head>
+
+<body>
+    <!-- Header start -->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <img src="./image/logo.png" alt="">
+                    <!-- <a class="navbar-brand" href="#">btc markets</a> -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Products
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Prices</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Buy
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">OTC</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Learn
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Help
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <button class="btn1" type="submit">Log in</button>
+                            <button class="btn2" type="submit">Sign up</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <div class="header__img_and_photo">
+                <div class="col-md-12 col-lg-8 title__1">
+                    <h1 class="header__h1">
+                        Buy, sell and trade crypto today
+                    </h1>
+                    <p class="header__p">
+                        Trade with confidence and build your future with Australia’s fastest crypto exchange.
+                    </p>
+                    <button class="Get-started">Get started</button>
+                    <button class="View-exchange">View exchange</button>
+                    <div>
+                        <i class="fa-brands fa-google"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span>4.6</span>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4 iphone__img">
+                    <img src="./image/IMAGE.png" alt="photo">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- Section start -->
+    <section id="clients">
+        <div class="container">
+            <div class="table2">
+                <div class="start__title">
+                    <h1 class="header__h1_n2">Most Popular</h1>
+                    <!-- <h2 class="header__h2">Top Movers</h2> -->
+                    <a class="header__h2" href="#">Top Movers</a>
+                </div>
+                <div class="second__title">
+                    <h1 class="header__h1_n3">Asset</h1>
+                    <h1 class="header__h1_n3 last">Last Price</h1>
+                    <h1 class="header__h1_n3 change">24hr Change</h1>
+                    <h1 class="header__h1_n3 cap">Market Cap</h1>
+                </div>
+                <div class="third__title">
+                    <img class="header__img_N1" src="./image/XRP.png" alt="photo">
+                    <h1 class="header__h1_N4">XRP</h1>
+                    <a class="header__a" href="#">$0.5617</a>
+                    <span class="aud">AUD</span>
+                    <a class="header__a_N3" href="#">1.57%</a>
+                    <div>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <a class="header__a_N2" href="#">$28B</a>
+                    <div>
+                        <button class="sold">Buy</button>
+                    </div>
+                </div>
+                <div class="third__title">
+                    <img class="header__img_N1" src="./image/XRP.png" alt="photo">
+                    <h1 class="header__h1_N4">XRP</h1>
+                    <a class="header__a" href="#">$0.5617</a>
+                    <span class="aud">AUD</span>
+                    <a class="header__a_N3" href="#">1.57%</a>
+                    <div>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <a class="header__a_N2" href="#">$28B</a>
+                    <div>
+                        <button class="sold">Buy</button>
+                    </div>
+                </div>
+                <div class="third__title">
+                    <img class="header__img_N1" src="./image/XRP.png" alt="photo">
+                    <h1 class="header__h1_N4">XRP</h1>
+                    <a class="header__a" href="#">$0.5617</a>
+                    <span class="aud">AUD</span>
+                    <a class="header__a_N3" href="#">1.57%</a>
+                    <div>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <a class="header__a_N2" href="#">$28B</a>
+                    <div>
+                        <button class="sold">Buy</button>
+                    </div>
+                </div>
+                <div class="third__title">
+                    <img class="header__img_N1" src="./image/XRP.png" alt="photo">
+                    <h1 class="header__h1_N4">XRP</h1>
+                    <a class="header__a" href="#">$0.5617</a>
+                    <span class="aud">AUD</span>
+                    <a class="header__a_N3" href="#">1.57%</a>
+                    <div>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <a class="header__a_N2" href="#">$28B</a>
+                    <div>
+                        <button class="sold">Buy</button>
+                    </div>
+                </div>
+                <div class="third__title">
+                    <img class="header__img_N1" src="./image/XRP.png" alt="photo">
+                    <h1 class="header__h1_N4">XRP</h1>
+                    <a class="header__a" href="#">$0.5617</a>
+                    <span class="aud">AUD</span>
+                    <a class="header__a_N3" href="#">1.57%</a>
+                    <div>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <a class="header__a_N2" href="#">$28B</a>
+                    <div>
+                        <button class="sold">Buy</button>
+                    </div>
+                </div>
+                <div class="end__title">
+                    <img class="section__zero-img" src="./image/XRP.png" alt="photo">
+                    <img class="setion__first-img" src="./image/XRP.png" alt="photo">
+                    <img class="setion__first-img" src="./image/XRP.png" alt="photo">
+                    <img class="setion__first-img" src="./image/XRP.png" alt="photo">
+                    <h1 class="section__h1">View all markets</h1>
+                    <div>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="section__btc_market">
+                <div>
+                    <h1 class="section__btc_h1">Why BTC Markets?</h1>
+                </div>
+                <div class="section__boxes">
+                    <div class="section__box-1">
+                        <div class="section__first_icons">
+                            <i class="fa-solid fa-lock"></i>
+                        </div>
+                        <h2 class="section__h2">Security</h2>
+                        <p class="section__p">
+                            Multiple layers of account security, 2FA, address whitelisting, Biometrics.
+                        </p>
+                    </div>
+                    <div class="section__box-2">
+                        <div class="section__first_icons">
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+                        <h2 class="section__h2">Speed</h2>
+                        <p class="section__p_n2">
+                            Fast trade executions with an industry leading uptime of 99.99%.
+                        </p>
+                    </div>
+                    <div class="section__box-3">
+                        <div class="section__first_icons">
+                            <i class="fa-solid fa-message"></i>
+                        </div>
+                        <h2 class="section__h2">Support</h2>
+                        <p class="section__p_n3">
+                            100% Australian-based customer support, OTC desk and VIP Program.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="section__simple">
+                <div>
+                    <h1 class="section__trade">Trade</h1>
+                </div>
+                <div class="section__rov row need">
+                    <div class="col-md-12 col-lg-6">
+                        <h2 class="section__trade_h2">
+                            Buy, sell and trade crypto with confidence
+                        </h2>
+                        <div class="section__four-box">
+                            <div class="section__1box">
+                                <div>
+                                    <i class="fa-solid fa-arrow-up section__four_icon"></i>
+                                    <i class="fa-solid fa-arrow-down section__four_icon_2"></i>
+                                </div>
+                                <h1 class="section__four_h1">
+                                    Simple buy & sell options
+                                </h1>
+                                <h2 class="section__four_h2">
+                                    Buy and sell cryptocurrency quickly and easily.
+                                </h2>
+                            </div>
+                            <div class="section__1box">
+                                <div>
+                                    <i class="fa-solid fa-arrow-up section__four_icon"></i>
+                                    <i class="fa-solid fa-arrow-down section__four_icon_2"></i>
+                                </div>
+                                <h1 class="section__four_h1">
+                                    Simple buy & sell options
+                                </h1>
+                                <h2 class="section__four_h2">
+                                    Buy and sell cryptocurrency quickly and easily.
+                                </h2>
+                            </div>
+                            <div class="section__1box">
+                                <div>
+                                    <i class="fa-solid fa-arrow-up section__four_icon"></i>
+                                    <i class="fa-solid fa-arrow-down section__four_icon_2"></i>
+                                </div>
+                                <h1 class="section__four_h1">
+                                    Simple buy & sell options
+                                </h1>
+                                <h2 class="section__four_h2">
+                                    Buy and sell cryptocurrency quickly and easily.
+                                </h2>
+                            </div>
+                            <div class="section__1box">
+                                <div>
+                                    <i class="fa-solid fa-arrow-up section__four_icon"></i>
+                                    <i class="fa-solid fa-arrow-down section__four_icon_2"></i>
+                                </div>
+                                <h1 class="section__four_h1">
+                                    Simple buy & sell options
+                                </h1>
+                                <h2 class="section__four_h2">
+                                    Buy and sell cryptocurrency quickly and easily.
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <img class="section__simple_image" src="./image/crypto_img.png" alt="photo">
+                    </div>
+                </div>
+                <div class="section__rov row">
+                    <div class="col-md-12 col-lg-6">
+                        <img class="section__simple_image" src="./image/crypto_img.png" alt="photo">
+                    </div>
+                    <div class="col-md-12 col-lg-6">
+                        <h2 class="section__trade_h2">
+                            Buy, sell and trade crypto with confidence
+                        </h2>
+                        <div class="section__four-box">
+                            <div class="section__1box">
+                                <div>
+                                    <i class="fa-solid fa-arrow-up section__four_icon"></i>
+                                    <i class="fa-solid fa-arrow-down section__four_icon_2"></i>
+                                </div>
+                                <h1 class="section__four_h1">
+                                    Simple buy & sell options
+                                </h1>
+                                <h2 class="section__four_h2">
+                                    Buy and sell cryptocurrency quickly and easily.
+                                </h2>
+                            </div>
+                            <div class="section__1box">
+                                <div>
+                                    <i class="fa-solid fa-arrow-up section__four_icon"></i>
+                                    <i class="fa-solid fa-arrow-down section__four_icon_2"></i>
+                                </div>
+                                <h1 class="section__four_h1">
+                                    Simple buy & sell options
+                                </h1>
+                                <h2 class="section__four_h2">
+                                    Buy and sell cryptocurrency quickly and easily.
+                                </h2>
+                            </div>
+                            <div class="section__1box">
+                                <div>
+                                    <i class="fa-solid fa-arrow-up section__four_icon"></i>
+                                    <i class="fa-solid fa-arrow-down section__four_icon_2"></i>
+                                </div>
+                                <h1 class="section__four_h1">
+                                    Simple buy & sell options
+                                </h1>
+                                <h2 class="section__four_h2">
+                                    Buy and sell cryptocurrency quickly and easily.
+                                </h2>
+                            </div>
+                            <div class="section__1box">
+                                <div>
+                                    <i class="fa-solid fa-arrow-up section__four_icon"></i>
+                                    <i class="fa-solid fa-arrow-down section__four_icon_2"></i>
+                                </div>
+                                <h1 class="section__four_h1">
+                                    Simple buy & sell options
+                                </h1>
+                                <h2 class="section__four_h2">
+                                    Buy and sell cryptocurrency quickly and easily.
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section__vip_program">
+                <div class="row section__for_vip_program">
+                    <div class="col-9 mx-auto">
+                        <h1 class="section__h1_vip_program">VIP Program</h1>
+                        <h2 class="section__h2_vip_program">When you need more than just a crypto exchange</h2>
+                        <p class="section__p_vip">
+                            Access world-class APIs, a lower fee structure and a dedicated Account Manager.
+                        </p>
+                        <div class="section__API">
+                            <div class="section__icon_title">
+                                <i class="fa-solid fa-bolt boltt_icon"></i>
+                                <h1 class="icon_title_h1">API integrations</h1>
+                            </div>
+                            <div class="section__icon_title">
+                                <i class="fa-solid fa-bolt boltt_icon"></i>
+                                <h1 class="icon_title_h1">API integrations</h1>
+                            </div>
+                            <div class="section__icon_title">
+                                <i class="fa-solid fa-bolt boltt_icon"></i>
+                                <h1 class="icon_title_h1">API integrations</h1>
+                            </div>
+                        </div>
+                        <button class="section__button_vip">Learn more</button>
+                        <div>
+                            <img class="bitcoin_img" src="./image/bitcoin_img_for_sectiob.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+                <div class="section__trading">
+                    <div class="row">
+                        <div class="col-8 mx-auto">
+                            <h1 class="section__trading_h1">Start trading in 3 easy steps</h1>
+                        </div>
+                    </div>
+                    <div class="section__boxes deposit">
+                        <div class="section__box-1">
+                            <div class="section__first_icons">
+                                <i class="fa-solid fa-lock"></i>
+                            </div>
+                            <h2 class="section__h2">1. Create</h2>
+                            <p class="sign">
+                                Sign up and verify your free account.
+                            </p>
+                        </div>
+                        <div class="section__box-2">
+                            <div class="section__first_icons">
+                                <i class="fa-solid fa-bolt"></i>
+                            </div>
+                            <h2 class="section__h2">2. Deposit</h2>
+                            <p class="add">
+                                Add AUD or crypto to your wallet using our secure methods.
+                            </p>
+                        </div>
+                        <div class="section__box-3">
+                            <div class="section__first_icons">
+                                <i class="fa-solid fa-message"></i>
+                            </div>
+                            <h2 class="section__h2">3. Trade</h2>
+                            <p class="set">
+                                You’re all set. Buy, sell and trade crypto immediately.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="Get_startdet_vip">
+                        <button class="section__butn_vip">Get started</button>
+                        <div class="google__icons">
+                            <i class="fa-brands fa-google"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <span>4.6</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section__trade_onthego">
+                <h1 class="section__h1_trade">Trade on the go</h1>
+                <p class="section__go_p">
+                    Place simple and advanced trades on the go with the BTC Markets app. You can also manage your
+                    portfolio, monitor prices, and track market movements, anywhere, anytime.
+                </p>
+                <div class="img_google_and_appstore">
+                    <img class="app_store" src="./image/app-store.png" alt="img">
+                    <img class="google_play" src="./image/google-play.png" alt="image">
+                </div>
+                <div class="stars__icon">
+                    <div class="app_stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span class="app_title">4.3</span>
+                    </div>
+                    <div class="google_stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <span class="google_title">3.9</span>
+                    </div>
+                </div>
+                <h1 class="section__learn">Learn more</h1>
+            </div>
+            <div class="section__news">
+                <div class="row section__news_title">
+                    <div class="col-12">
+                        <h1 class="section__news_h1">Find out the latest crypto news</h1>
+                    </div>
+                </div>
+                <div class="section__news_boxes">
+                    <div class="section__news_1_box">
+                        <img class="section__news_1image" src="./image/image_for_news.png" alt="photo">
+                        <div>
+                            <button class="section__news_btnn">Newsletter</button>
+                            <a class="section__news_a" href="#">Jan 19th 2023</a>
+                        </div>
+                        <h1 class="section__news_2h1">This Week in Crypto: 19th January 2023</h1>
+                        <span class="section__news_span">Read more</span>
+                    </div>
+                    <div class="section__news_1_box">
+                        <img class="section__news_1image" src="./image/image_for_news.png" alt="photo">
+                        <div>
+                            <button class="section__news_btnn">Newsletter</button>
+                            <a class="section__news_a" href="#">Jan 19th 2023</a>
+                        </div>
+                        <h1 class="section__news_2h1">This Week in Crypto: 19th January 2023</h1>
+                        <span class="section__news_span">Read more</span>
+                    </div>
+                    <div class="section__news_1_box">
+                        <img class="section__news_1image" src="./image/image_for_news.png" alt="photo">
+                        <div>
+                            <button class="section__news_btnn">Newsletter</button>
+                            <a class="section__news_a" href="#">Jan 19th 2023</a>
+                        </div>
+                        <h1 class="section__news_2h1">This Week in Crypto: 19th January 2023</h1>
+                        <span class="section__news_span">Read more</span>
+                    </div>
+                </div>
+                <div class="section__check">
+                    <div class="section__check_title">
+                        <h1 class="section__check_h1">Check out more of our crypto news</h1>
+                    </div>
+                    <div class="section__check_icon">
+                        <div class="section__icon_box">
+                            <i class="fa-brands fa-twitter"></i>
+                            <h1 class="twitter">Twitter</h1>
+                        </div>
+                        <div class="section__icon_box">
+                            <i class="fa-brands fa-twitter"></i>
+                            <h1 class="twitter">Twitter</h1>
+                        </div>
+                        <div class="section__icon_box">
+                            <i class="fa-brands fa-twitter"></i>
+                            <h1 class="twitter">Twitter</h1>
+                        </div>
+                        <div class="section__icon_box">
+                            <i class="fa-brands fa-twitter"></i>
+                            <h1 class="twitter">Twitter</h1>
+                        </div>
+                        <div class="section__icon_box">
+                            <i class="fa-brands fa-twitter"></i>
+                            <h1 class="twitter">Twitter</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section__today">
+                <h1 class="section__today_h1">Create an account and start trading with us today!</h1>
+                <button class="section__today_bdn">Get started</button>
+            </div>
+        </div>
+    </section>
+    <!-- Section end -->
+
+    <!-- Footer start -->
+    <footer>
+        <div class="container">
+            <div class="footer__first">
+                <div>
+                    <img class="footer__image" src="./image/logo.png" alt="photo">
+                </div>
+                <div class="footer__title">
+                    <div class="About">
+                        <h1 class="footer__first_h1">About</h1>
+                        <div>
+                            <ul class="footer__first_ul">
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Mobile app</a></li>
+                                <li><a href="#">Staking</a></li>
+                                <li><a href="#">Self Managed Super Funds</a></li>
+                                <li><a href="#">OTC Trading</a></li>
+                                <li><a href="#">VIP Program</a></li>
+                                <li><a href="#">Investor Study Report</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="Legal">
+                        <h1 class="footer__legal_h1">Legal</h1>
+                        <div>
+                            <ul class="legal__ul">
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms of Service</a></li>
+                                <li><a href="#">AML/CTF Policy</a></li>
+                                <li><a href="#">Protect Yourself Online</a></li>
+                                <li><a href="#">Information Requests</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="Help">
+                        <h1 class="help__h1">Help</h1>
+                        <div>
+                            <ul class="help__ul">
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Complaints</a></li>
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">Fees</a></li>
+                                <li><a href="#">Bug Bounty</a></li>
+                                <li><a href="#">API</a></li>
+                                <li><a href="#">Tax Reporting</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="Follow">
+                        <h1 class="follow__h1">Follow</h1>
+                        <div>
+                            <ul class="follow__ul">
+                                <li><a href="#" class="footer__icon_box">
+                                        <i class="fa-brands fa-twitter footer__icon"></i>
+                                        <h1 class="footer__twitter">Twitter</h1>
+                                    </a></li>
+                            </ul>
+                            <ul class="follow__ul">
+                                <li><a href="#" class="footer__icon_box">
+                                        <i class="fa-brands fa-twitter footer__icon"></i>
+                                        <h1 class="footer__twitter">Twitter</h1>
+                                    </a></li>
+                            </ul>
+                            <ul class="follow__ul">
+                                <li><a href="#" class="footer__icon_box">
+                                        <i class="fa-brands fa-twitter footer__icon"></i>
+                                        <h1 class="footer__twitter">Twitter</h1>
+                                    </a></li>
+                            </ul>
+                            <ul class="follow__ul">
+                                <li><a href="#" class="footer__icon_box">
+                                        <i class="fa-brands fa-twitter footer__icon"></i>
+                                        <h1 class="footer__twitter">Twitter</h1>
+                                    </a></li>
+                            </ul>
+                            <ul class="follow__ul">
+                                <li><a href="#" class="footer__icon_box">
+                                        <i class="fa-brands fa-twitter footer__icon"></i>
+                                        <h1 class="footer__twitter">Twitter</h1>
+                                    </a></li>
+                            </ul>
+                            <ul class="follow__ul">
+                                <li><a href="#" class="footer__icon_box">
+                                        <i class="fa-brands fa-twitter footer__icon"></i>
+                                        <h1 class="footer__twitter">Twitter</h1>
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="Get Started">
+                        <h1 class="get__h1">Get Started</h1>
+                        <div>
+                            <ul class="Get__ul">
+                                <li>Log in</li>
+                                <li>Sign up</li>
+                                <li><img class="footer__app" src="./image/app-store.png" alt="photo"></li>
+                                <li><img class="footer__play" src="./image/google-play.png" alt="image"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__second">
+                <div>
+                    <ul class="footer__second_ul">
+                        <li><a href="#">ACN 164 093 887 | ABN 45 164 093 887</a></li>
+                        <li><a href="#">©2023 BTC Markets Pty Ltd. All rights reserved.</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="footer__second_ul_2">
+                        <li><a href="#">BTC Markets Pty Ltd ACN 164 093 887 is an authorised representative (AR No.
+                                1297122) of BTCM Payments Pty Ltd ACN 643 241 829 (AFSL No. 525840)</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

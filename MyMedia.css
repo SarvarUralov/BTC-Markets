@@ -1,0 +1,304 @@
+@media(max-width:576px) {
+    .header__img_and_photo {
+        display: block;
+    }
+
+    .navbar {
+        margin-bottom: 0;
+    }
+
+    .header__h1 {
+        font-size: 49px;
+        line-height: 55px;
+    }
+
+    .iphone__img {
+        margin-left: 10px;
+    }
+
+    .Get-started {
+        margin-bottom: 10px;
+    }
+
+    .last {
+        margin-left: 10px;
+
+    }
+
+    .change {
+        margin-left: 15px;
+    }
+
+    .cap {
+        margin-left: 15px;
+    }
+
+    .header__a {
+        margin-left: 0;
+        font-size: 13px;
+    }
+
+    .header__a_N2 {
+        margin-left: 0;
+    }
+
+    .header__a_N3 {
+        margin-left: 0;
+        margin-right: 4px;
+        font-size: 14px;
+    }
+
+    .sold {
+        margin-left: 10px;
+        padding: 6px 15px;
+    }
+
+    .header__h1_n3 {
+        font-size: 13px;
+    }
+
+    .third__title {
+        padding: 12px;
+    }
+
+    .header__h1_N4 {
+        font-size: 13px;
+    }
+
+    .aud {
+        font-size: 8px;
+    }
+
+    .header__h1_n2 {
+        margin-right: 10px;
+    }
+
+    .end__title {
+        margin-bottom: 28px;
+    }
+
+    .section__btc_h1 {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 45px;
+    }
+
+    .section__first_icons {
+        height: 38px;
+    }
+
+    .section__p {
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    .section__p_n2 {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .section__p_n3 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .section__h2_vip_program {
+        margin-left: 0;
+    }
+
+    .section__simple_image {
+        width: 320px;
+        height: 250px;
+    }
+
+    .section__boxes {
+        margin-bottom: 15px;
+    }
+
+    .section__trade_h2 {
+        margin-bottom: 10px;
+    }
+
+    .section__1box {
+        margin-bottom: 10px;
+    }
+
+    .need {
+        margin-bottom: 30px;
+    }
+
+    .section__rov {
+        margin-bottom: 20px;
+    }
+
+    .section__h2_vip_program {
+        font-size: 22px;
+        line-height: 29px;
+        margin-bottom: 25px;
+    }
+
+    .section__p_vip {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 25px;
+    }
+
+    .section__button_vip {
+        margin-left: 35px;
+        margin-bottom: 20px;
+    }
+
+    .section__API {
+        display: block;
+    }
+
+    .section__icon_title {
+        margin-bottom: 10px;
+    }
+
+    .bitcoin_img {
+        margin-bottom: 15px;
+    }
+
+    .section__trading_h1 {
+        margin-left: 0;
+        font-size: 31px;
+        line-height: 36px;
+        margin-bottom: 15px;
+    }
+
+    .add {
+        font-size: 13px;
+    }
+
+    .Get_startdet_vip {
+        margin-left: 0;
+    }
+
+    .google__icons {
+        margin-bottom: 15px;
+        margin-left: 85px;
+    }
+
+    .deposit {
+        margin-bottom: 15px !important;
+    }
+
+    .section__butn_vip {
+        margin-left: 80px;
+        margin-bottom: 15px;
+    }
+
+    .section__learn {
+        margin-bottom: 25px;
+    }
+
+    .section__news_h1 {
+        font-size: 28px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+
+    .section__news_boxes {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .section__check_h1 {
+        margin-bottom: 10px;
+    }
+
+    .section__check_icon {
+        margin-bottom: 15px;
+    }
+
+    .section__today_bdn {
+        margin-bottom: 20px;
+    }
+
+    .section__news_1image {
+        width: 325px;
+    }
+
+    .section__icon_box {
+        display: block;
+    }
+
+    .section__today_h1 {
+        font-size: 34px;
+        line-height: 33px;
+        margin-bottom: 18px;
+    }
+
+    .footer__image {
+        margin-bottom: 20px;
+    }
+
+    .footer__first_h1 {
+        font-size: 9px;
+        line-height: 0;
+        margin-bottom: 17px;
+    }
+
+    .footer__first ul li {
+        margin-bottom: 0;
+    }
+
+    .footer__legal_h1 {
+        font-size: 9px;
+        line-height: 0;
+        margin-bottom: 17px;
+    }
+
+    .help__h1 {
+        font-size: 9px;
+        line-height: 0;
+        margin-bottom: 17px;
+    }
+
+    .follow__h1 {
+        font-size: 9px;
+        line-height: 0;
+        margin-bottom: 17px;
+    }
+
+    .footer__twitter {
+        margin-left: 4.33px;
+    }
+
+    .follow__ul {
+        margin-bottom: 5px;
+    }
+
+    .get__h1 {
+        font-size: 9px;
+        line-height: 0;
+        margin-bottom: 17px;
+    }
+
+    .footer__app {
+        width: 60px;
+        height: 20px;
+    }
+
+    .footer__play {
+        width: 65px;
+        height: 20px;
+    }
+
+    .footer__title {
+        margin-bottom: 15px;
+    }
+
+    .footer__second_ul {
+        margin-bottom: 10px;
+    }
+
+    .footer__second_ul_2 li a {
+        margin-left: 15px;
+    }
+
+    .footer__second_ul_2 {
+        margin-bottom: 0;
+    }
+}
